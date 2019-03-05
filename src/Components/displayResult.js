@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { bmiCalculation } from '../Modules/BMICalculator';
 
-
 class DisplayResult extends Component {
   calculate() {
     var weight= this.props.weight;

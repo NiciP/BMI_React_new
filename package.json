@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "jest-puppeteer-preset": "^4.0.0",
     "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-dom": "^16.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,7 +24,13 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "jest-dev-server": "^4.0.0",
-    "jest-puppeteer": "^4.0.0"
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0",
+    "jest-dev-server": "^3.9.0",
+    "jest-puppeteer": "^3.9.0",
+    "puppeteer": "^1.12.2",
+    "react-scripts": "^2.1.5",
+    "react-test-renderer": "^16.8.3",
+    "sinon": "^7.2.7"
   }
 }
